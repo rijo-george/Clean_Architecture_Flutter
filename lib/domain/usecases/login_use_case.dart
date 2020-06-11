@@ -1,8 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
-import 'package:micro_social/common/failures.dart';
-import '../repositories/login_repository.dart';
+
+import '../../common/failures.dart';
 import '../entities/user.dart';
+import '../repositories/login_repository.dart';
 
 abstract class AbstractLoginUseCase {
   AbstractLoginRepository repository;

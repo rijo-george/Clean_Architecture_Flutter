@@ -1,5 +1,5 @@
-import 'package:micro_social/domain/repositories/login_repository.dart';
-import 'package:micro_social/domain/usecases/login_use_case.dart';
+import '../../../../domain/repositories/login_repository.dart';
+import '../../../../domain/usecases/login_use_case.dart';
 
 class LoginBloc {
   AbstractLoginUseCase usercase;
