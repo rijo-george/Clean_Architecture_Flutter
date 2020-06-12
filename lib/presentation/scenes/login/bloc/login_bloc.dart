@@ -1,4 +1,4 @@
-import '../../../../domain/repositories/login_repository.dart';
+import '../../../../domain/repositories/dto/login_dto.dart';
 import '../../../../domain/usecases/login_use_case.dart';
 
 class LoginBloc {
