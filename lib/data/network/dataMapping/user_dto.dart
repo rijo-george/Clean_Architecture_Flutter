@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:micro_social/domain/entities/user.dart';
+
+import '../../../domain/entities/user.dart';
 
 class UserDTO {
   String token;
