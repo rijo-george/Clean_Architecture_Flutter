@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../../common/failures.dart';
 import '../entities/user.dart';
 import '../repositories/dto/login_dto.dart';
-import '../repositories/login_repository.dart';
+import '../repositories/abstract_login_repository.dart';
 
 abstract class AbstractLoginUseCase {
   AbstractLoginRepository repository;
